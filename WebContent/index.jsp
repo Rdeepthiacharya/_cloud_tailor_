@@ -344,19 +344,19 @@
 						<div class="footer_social_area">
 							<div class="icons">
 								<a href="#" class="icon1 icon--map"><i
-									class="fa-solid fa-location-dot fa-shake fa-xl"></i></a>
-								<p>Threaded Heavens | near sapna book house, 4th Block,
+									class="fa-solid fa-location-dot fa-xl"></i></a>
+								<p class="responsive-font-example">Threaded Heavens | near sapna book house, 4th Block,
 									Jayanagar, Bengaluru, Karnataka 560041</p>
 							</div>
 							<div class="icons">
 								<a href="#" class="icon1 icon--phone"><i
 									class="fa-solid fa-phone fa-xl"></i></a>
-								<p>500-123-4256</p>
+								<p class="responsive-font-example">500-123-4256</p>
 							</div>
 							<div class="icons">
 								<a href="#" class="icon1 icon--envelope"><i
 									class="fa-solid fa-envelope fa-xl"></i></a>
-								<p>
+								<p class="responsive-font-example">
 									<a class="a1" href="mailto:threadedheavens@gmail.com">mail
 										to : threadedheavens@gmail.com</a>
 								</p>

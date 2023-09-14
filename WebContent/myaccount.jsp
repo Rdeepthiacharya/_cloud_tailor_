@@ -69,7 +69,7 @@
 												Details</h6>
 											<div class="row">
 												<div class="col-sm-6">
-													<p class="m-b-10 f-w-600">Email</p>
+													<p class="m-b-10 font-weight-bold f-w-600">Email</p>
 													<h6 class="text-muted f-w-400">
 														<%
 															String em = (String) session.getAttribute("emailid");
@@ -78,7 +78,7 @@
 													</h6>
 												</div>
 												<div class="col-sm-6">
-													<p class="m-b-10 f-w-600">Phone</p>
+													<p class="m-b-10 font-weight-bold f-w-600">Phone</p>
 													<h6 class="text-muted f-w-400">
 														<%
 															String mb = (String) session.getAttribute("mobile");
@@ -88,7 +88,7 @@
 												</div>
 
 												<div class="col-sm-6">
-													<p class="m-b-10 f-w-600">Address</p>
+													<p class="m-b-10 font-weight-bold f-w-600">Address</p>
 													<h6 class="text-muted f-w-400">
 														<%
 															String ad = (String) session.getAttribute("addr");
@@ -97,7 +97,7 @@
 													</h6>
 												</div>
 												<div class="col-sm-6">
-													<p class="m-b-10 f-w-600">DOB</p>
+													<p class="m-b-10 font-weight-bold f-w-600">DOB</p>
 													<h6 class="text-muted f-w-400">
 														<%
 															String o = (String) session.getAttribute("dob");

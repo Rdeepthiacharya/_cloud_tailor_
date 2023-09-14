@@ -82,18 +82,6 @@
         $(this).css('animation-duration', anim_dur);
     });
 
-    //Testimonials Slider Active Code
-    if ($.fn.owlCarousel) {
-        $(".karl-testimonials-slides").owlCarousel({
-            items: 1,
-            margin: 0,
-            loop: true,
-            dots: true,
-            autoplay: true,
-            smartSpeed: 1200
-        });
-    }
-
     //Gallery Menu Style Active Code
     $('.portfolio-menu button.btn').on('click', function () {
         $('.portfolio-menu button.btn').removeClass('active');
@@ -110,6 +98,7 @@
                     filter: filterValue
                 });
             });
+            
             // init Isotope
             var $grid = $('.karl-new-arrivals').isotope({
                 itemSelector: '.single_gallery_item',
@@ -121,12 +110,7 @@
         });
     }
 
-    // Header Cart btn Active Code
-    $('#header-cart-btn').on('click', function () {
-        $('body').toggleClass('cart-data-open');
-    })
-
-    // :: 8.0 Side Menu Active Code
+    // Side Menu Active Code
     $('#sideMenuBtn').on('click', function () {
         $('#wrapper').toggleClass('karl-side-menu-open');
     })
@@ -134,54 +118,14 @@
         $('#wrapper').removeClass('karl-side-menu-open');
     })
 
-    // Magnific-popup Video Active Code
-    if ($.fn.magnificPopup) {
-        $('.video_btn').magnificPopup({
-            disableOn: 0,
-            type: 'iframe',
-            mainClass: 'mfp-fade',
-            removalDelay: 160,
-            preloader: true,
-            fixedContentPos: false
-        });
-        $('.gallery_img').magnificPopup({
-            type: 'image',
-            gallery: {
-                enabled: true
-            }
-        });
-    }
-
     // ScrollUp Active Code
     if ($.fn.scrollUp) {
         $.scrollUp({
             scrollSpeed: 1000,
             easingType: 'easeInOutQuart',
-            scrollText: '<i class="ti-angle-up" aria-hidden="true"></i>'
+            scrollText: '<i class="fa-solid fa-angle-up" aria-hidden="true"></i>'
         });
     }
-
-    // Slider Range Price Active Code
-    $('.slider-range-price').each(function () {
-        var min = jQuery(this).data('min');
-        var max = jQuery(this).data('max');
-        var unit = jQuery(this).data('unit');
-        var value_min = jQuery(this).data('value-min');
-        var value_max = jQuery(this).data('value-max');
-        var label_result = jQuery(this).data('label-result');
-        var t = $(this);
-        $(this).slider({
-            range: true,
-            min: min,
-            max: max,
-            values: [value_min, value_max],
-            slide: function (event, ui) {
-                var result = label_result + " " + unit + ui.values[0] + ' - ' + unit + ui.values[1];
-                console.log(t);
-                t.closest('.slider-range').find('.range-price').html(result);
-            }
-        });
-    })
 
     // PreventDefault a Click
     $("a[href='#']").on('click', function ($) {
@@ -194,5 +138,3 @@
     }
 
 })(jQuery);
-
-

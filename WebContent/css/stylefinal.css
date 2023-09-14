@@ -160,7 +160,6 @@ td a{
 	color: #ff084e;
 }
 
-
 /* customized img */
  .product-grid{
  margin: 15px;
@@ -240,10 +239,7 @@ input::-webkit-inner-spin-button {
   background-color: #3e8e41;
 }
 
-
-
 /* feedback */
-
 form .stars {
   background: url("img/stars.png") repeat-x 0 0;
   width: 150px;
@@ -367,13 +363,13 @@ form input {
 
 /* tables */
 table{
-	align: center;	
-	boder-collapse:collapse;
+	align-items: center;	
+	border-collapse: collapse;
 }
 
 .tablecontent table{
-	font-sixe:0.9em;
-	align: center;	
+	font-size:0.9em;
+	align-items: center;	
 	overflow: hidden;
 	margin:0 auto;	
 	border: 7px;
@@ -771,10 +767,6 @@ p {
     font-weight: 600;
 }
 
-.m-b-20 {
-    margin-bottom: 20px;
-}
-
 .m-t-40 {
     margin-top: 20px;
 }
@@ -811,3 +803,26 @@ p {
   min-height: 100%;
 }
 
+.m-b-20{
+ color: #FF4500;	
+}
+
+/* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 1200px) {
+  .m-b-20{
+    font-size: 25px;
+  }
+}
+/* If the screen size is smaller than 1200px, set the font-size to 80px */
+@media (max-width: 1199.98px) {
+  .responsive-font-example,.m-b-20,.m-b-10 {
+    font-size: 15px;
+  }
+}
+
+/* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 1200px) {
+  .responsive-font-example,.m-b-10 {
+    font-size: 17px;
+  }
+}
