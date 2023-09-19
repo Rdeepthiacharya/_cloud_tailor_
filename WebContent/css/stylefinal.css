@@ -105,7 +105,6 @@ form .form-field {
     outline: 0;
     margin-bottom: 20px;
     padding-left: 0px;
-   /*  color: #db650b; */
 }
   textarea,input[type=file] ,select{
     border: none;
@@ -115,6 +114,11 @@ form .form-field {
     outline: 0;
     margin-bottom: 20px;
     padding-left: 0px;
+}
+
+textarea::placeholder { 
+font-size:15px;
+padding-left:55px;
 }
 
 input:focus {
@@ -348,7 +352,6 @@ form .form-field {
   position: relative;
 }
 form input {
-  font-family: inherit;
   width: 100%;
   outline: none;
   border-radius: 4px;
@@ -411,7 +414,6 @@ button {
   color: #fff;
   border-radius: 5px;
   padding: 10px 25px;
-  font-family: 'Lato', sans-serif;
   font-weight: 500;
   background: transparent;
   cursor: pointer;
@@ -476,7 +478,6 @@ background: linear-gradient(0deg, rgba(240, 104, 7) 0%, rgba(251,75,2,1) 100%);
 
 h1{
   font-size: 2.5rem;
-  font-family: 'Montserrat';
   font-weight: normal;
   color: #444;
   text-align: center;
@@ -637,7 +638,6 @@ h1{
 
 .front .inner span{
   color: rgba(255,255,255,0.7);
-  font-family: 'Montserrat';
   font-weight: 300;
 }
 

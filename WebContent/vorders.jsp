@@ -41,6 +41,7 @@
 				</div>
 			</div>
 		</header><br><br>
+		
 		<div class="section_heading text-center">
 			<h2>Dispatch Order </h2>
 		</div>
@@ -102,17 +103,14 @@
 
 									out.println(e);
 								}
-							%>
-						
+							%>				
 					</td>
 				</tr>
-
 			</table>
 			</table>
 		</div>
-		<br><br>
-		<br><br>
 		<br><br><br><br>
+		
 		<div class="section_heading text-center">
 			<h2>Completed Order </h2>
 		</div>
@@ -168,16 +166,13 @@
 
 									out.println(e);
 								}
-							%>
-						
+							%>					
 					</td>
 				</tr>
-
 			</table>
 			</table>
-		</div>
-		<br>
-		<br><br><br>
+		</div><br><br><br><br>
+		
 		<footer class="footer_area">
 			<jsp:include page="footer.jsp"></jsp:include>
 		</footer>

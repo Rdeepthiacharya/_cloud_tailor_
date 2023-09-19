@@ -85,9 +85,8 @@
 				</div>
 				<br>
 				<div class="form-field">
-					<span><i class="fa-solid fa-address-card fa-xl"></i></span> <textarea
-						 title="Address" name="t4" id="t4">
-					</textarea>
+					<span><i class="fa-solid fa-address-card fa-xl"></i></span> 
+					<textarea rows="2" cols="50" placeholder="Address" title="Address" name="t4" id="t4"></textarea>
 				</div>
 				<br>
 				<div class="form-field">
@@ -100,7 +99,7 @@
 				<div class="form-field">
 					<span><i class="fa-solid fa-calendar-days fa-xl"></i></span>
 					<div>
-						<input name="t6" id="born_date"
+						<input name="t6" id="born_date" placeholder="Date of birth"
 							 required="required" />
 					</div>
 				</div><br><br>				

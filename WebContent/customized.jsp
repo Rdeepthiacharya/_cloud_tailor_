@@ -52,10 +52,11 @@
 			</div>
 		</section><br><br><br>
 
+     <div class="container">
 		<div class="section_heading text-center">
 			<h2>Upcycling</h2>
 		</div>
-		<div class="container">
+		<div class="line"></div>
 			<div class="row karl-new-arrivals">
 				<div class="product-grid"
 					style=" height: 400px; width: 250px;">
@@ -126,6 +127,7 @@
 			<div class="section_heading text-center">
 				<h2>Customized Dress</h2>
 			</div>
+			<div class="line"></div>
 			<div class="row karl-new-arrivals">
 				<div class="product-grid"
 					style=" height: 460px; width: 250px;">
@@ -196,6 +198,7 @@
 			<div class="section_heading text-center">
 				<h2>Accessories</h2>
 			</div>
+			<div class="line"></div>
 			<div class="row karl-new-arrivals" data-wow-delay="0.2s">
 				<div class="product-grid"
 					style=" height: 500px; width: 250px;">
