@@ -1,12 +1,7 @@
-/*
-SQLyog Ultimate v10.00 Beta1
-MySQL - 5.0.51b-community-nt : Database - CloudTailor
-*********************************************************************
-*/
-
+/* SQLyog Ultimate v10.00 Beta1
+MySQL - 5.0.51b-community-nt : Database - CloudTailor */
 
 /*!40101 SET NAMES utf8 */;
-
 /*!40101 SET SQL_MODE=''*/;
 
 /*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
@@ -108,14 +103,4 @@ CREATE TABLE `signup` (
   `addr` varchar(100) default NULL,
   `ph` varchar(100) default NULL,
   `dob` varchar(100) default NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-
-/*Table structure for table `contactus` */
-
-CREATE TABLE `contactus` (
-  `names` varchar(100) default NULL,
-  `emailid` varchar(100) default NULL,
-  `ph` varchar(100) default NULL,
-  `message` varchar(100) default NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
