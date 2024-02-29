@@ -94,20 +94,23 @@
 				<div class="form-field">
 					<div align="left" class="style1">Rate us</div>
 					<div align="left">
-						<div class="stars">
-							<input name="star" type="radio" class="star-1" id="star-6"
-								value="1" /> <label class="star-1" for="star-6">1</label> <input
-								name="star" type="radio" class="star-2" id="star-7" value="2" />
-							<label class="star-2" for="star-7">2</label> <input name="star"
-								type="radio" class="star-3" id="star-8" value="3" /> <label
-								class="star-3" for="star-8">3</label> <input name="star"
-								type="radio" class="star-4" id="star-9" value="4" /> <label
-								class="star-4" for="star-9">4</label> <input name="star"
-								type="radio" class="star-5" id="star-10" value="5" /> <label
-								class="star-5" for="star-10">5</label> <span></span>
+					  <div class="star-rating">	
+						<div class="stars">					     
+				<input type="radio" name="star" id="star-5" value="5">
+                <label for="star-5" class="fas fa-star"></label>
+                <input type="radio" name="star" id="star-4" value="4">
+                <label for="star-4" class="fas fa-star"></label>
+                <input type="radio" name="star" id="star-3" value="3">
+                <label for="star-3" class="fas fa-star"></label>
+                <input type="radio" name="star" id="star-2" value="2">
+                <label for="star-2" class="fas fa-star"></label>
+                <input type="radio" name="star" id="star-1" value="1">
+                <label for="star-1" class="fas fa-star"></label>					
+						</div>
 						</div>
 					</div>
 				</div><br>
+				
 				<div class="button-container">
 					<input type="submit" class="btn karl-btn" name="Submit"
 						value="Submit" />&nbsp;&nbsp; <input type="reset"
