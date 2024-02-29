@@ -69,7 +69,6 @@
 					<span class="style1"><i class="fa-solid fa-user fa-xl"></i>&nbsp;Name</span>
 					<input type="text" name="c1" id="c1" required="required" />
 				</div>
-
 				<div class="form-field">
 					<span><i class="fa-regular fa-at fa-xl"></i>&nbsp;Emailid</span> <input
 						type="email" name="c2" id="c2" required="required" />
@@ -83,39 +82,12 @@
 					<span><i class="fa-solid fa-pen-to-square fa-xl"></i>&nbsp;What
 						can we help you with?</span>
 					<textarea name="c4" id="c4" required="required"></textarea>
-				</div>
+				</div><br>
 				<div class="button-container">
 					<input type="submit"  onclick="sendmail()" class="btn karl-btn" name="submit"
 						value="submit" />
 				</div>
 			</form>
-		</div>
-		<div align="center">
-			<%
-				if (request.getParameter("submit") != null) {
-					try {
-						Connection con = Dbconnection.getConnection();
-						String c1 = request.getParameter("c1").trim();
-						String c2 = request.getParameter("c2").trim();
-						String c3 = request.getParameter("c3").trim();
-						String c4 = request.getParameter("c4").trim();
-				
-						PreparedStatement pstmt = con.prepareStatement("insert into contactus values(?,?,?,?)");
-						pstmt.setString(1, c1);
-						pstmt.setString(2, c2);
-						pstmt.setString(3, c3);
-						pstmt.setString(4, c4);
-
-						pstmt.executeUpdate();
-						pstmt.close();
-						con.close();
-
-						out.println("<script>alert('Sent Successfully');window.location='index.jsp';</script>");
-					} catch (Exception e) {
-						out.println("Exception occured" + e);
-					}
-				}
-			%>
 		</div><br><br>
 
 		<footer class="footer_area">
