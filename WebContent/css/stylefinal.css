@@ -23,7 +23,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   flex-direction: column;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
@@ -168,10 +167,7 @@ td a{
  .product-grid{
  margin: 15px;
    text-align: center;
- /* border-radius: 15px;
-  border: 1px solid #e7e7e7; */
-  transition: all 0.4s ease-out;
-  
+  transition: all 0.4s ease-out;  
 }
  .product-image{
  object-fit:cover;
@@ -244,85 +240,40 @@ input::-webkit-inner-spin-button {
 }
 
 /* feedback */
-form .stars {
-  background: url("img/stars.png") repeat-x 0 0;
-  width: 150px;
-  margin: 0 auto;
+.star-rating input {
+    display: none;
+}
+.star-rating {
+    margin: 0 auto;  
+    width: 250px;
+}
+.star-rating label {
+    padding: 10px;
+    float: right;
+    font-size: 26px;
+    color: #eee;
+}
+.star-rating input:not(:checked) ~ label:hover,
+.star-rating input:not(:checked) ~ label:hover ~ label {
+    color: #ffc107;
+}
+.star-rating input:checked ~ label {
+    color: #ffc107;
 }
 
-form .stars input[type="radio"] {
-  position: absolute;
-  opacity: 0;
-  filter: alpha(opacity=0);
+.star-rating input:checked ~ form {
+    border-top: 1px solid #ddd;
+    width: 100%;
+    padding-top: 15px;
+    margin-top: 15px;
+    display: inline-block;
 }
-form .stars input[type="radio"].star-5:checked ~ span {
-  width: 100%;
-}
-form .stars input[type="radio"].star-4:checked ~ span {
-  width: 80%;
-}
-form .stars input[type="radio"].star-3:checked ~ span {
-  width: 60%;
-}
-form .stars input[type="radio"].star-2:checked ~ span {
-  width: 40%;
-}
-form .stars input[type="radio"].star-1:checked ~ span {
-  width: 20%;
-}
-form .stars label {
-  display: block;
-  width: 30px;
-  height: 30px;
-  margin: 0!important;
-  padding: 0!important;
-  text-indent: -999em;
-  float: left;
-  position: relative;
-  z-index: 10;
-  background: transparent!important;
-  cursor: pointer;
-}
-form .stars label:hover ~ span {
-  background-position: 0 -30px;
-}
-form .stars label.star-5:hover ~ span {
-  width: 100% !important;
-}
-form .stars label.star-4:hover ~ span {
-  width: 80% !important;
-}
-form .stars label.star-3:hover ~ span {
-  width: 60% !important;
-}
-form .stars label.star-2:hover ~ span {
-  width: 40% !important;
-}
-form .stars label.star-1:hover ~ span {
-  width: 20% !important;
-}
-form .stars span {
-  display: block;
-  width: 0;
-  position: relative;
-  top: 0;
-  left: 0;
-  height: 30px;
-  background: url("img/stars.png") repeat-x 0 -60px;
-  -webkit-transition: -webkit-width 0.5s;
-  -moz-transition: -moz-width 0.5s;
-  -ms-transition: -ms-width 0.5s;
-  -o-transition: -o-width 0.5s;
-  transition: width 0.5s;
-}
-
 
 form {
    width:370px;
   margin: 0 auto; 
   justify-content: center;
 }
-
  
 form .form-field::before {
   font-size: 20px;
@@ -334,10 +285,12 @@ form .form-field::before {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 i{
 	height:44;
 	width:44;
 }
+
 form .form-field {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -351,6 +304,7 @@ form .form-field {
   margin-bottom: 1rem;
   position: relative;
 }
+
 form input {
   width: 100%;
   outline: none;
@@ -807,20 +761,18 @@ p {
  color: #FF4500;	
 }
 
-/* If the screen size is 1200px wide or more, set the font-size to 80px */
 @media (min-width: 1200px) {
   .m-b-20{
     font-size: 25px;
   }
 }
-/* If the screen size is smaller than 1200px, set the font-size to 80px */
+
 @media (max-width: 1199.98px) {
   .responsive-font-example,.m-b-20,.m-b-10 {
     font-size: 15px;
   }
 }
 
-/* If the screen size is 1200px wide or more, set the font-size to 80px */
 @media (min-width: 1200px) {
   .responsive-font-example,.m-b-10 {
     font-size: 17px;
