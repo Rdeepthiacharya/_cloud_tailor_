@@ -1,7 +1,6 @@
 package dbconnection;
 
 import java.util.Properties;
-
 import javax.mail.Message;
 import javax.mail.MessagingException;
 import javax.mail.PasswordAuthentication;
@@ -17,7 +16,7 @@ public class SendMail {
        String to = toEmail;
 
        // Sender's email ID needs to be mentioned
-       String from = "rdeepaacharya19@gmail.com";
+       String from = "threadedheavens4@gmail.com";
 
        // Assuming you are sending email from through gmails smtp
        String host = "smtp.gmail.com";
