@@ -8,7 +8,6 @@
 <title>Cloud Tailor</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
-
 <!-- Favicon  -->
 <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 
@@ -97,7 +96,7 @@
  			}
 
  			out.println("<td><b><a href=feedback.jsp?id=" + s11
- 					+ "><img src='images/rate.png' width='60px' height='50px'><p style='color:#000'>Rate Us</p></b><a/></td>");
+ 					+ "><img src='img/rate.png' width='60px' height='50px'><p style='color:#000'>Rate Us</p></b><a/></td>");
 
  			out.println("</tr>");
  			rs.close();
