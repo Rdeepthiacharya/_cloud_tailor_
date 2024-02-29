@@ -14,6 +14,7 @@ To get started with this project, you will need to have the following installed 
 - Eclipse 
 - Apache Tomcat
 - SQLyog
+- create an SMTP server for Gmail
 
 Once you have these installed, you can clone the repository and run the application on your local machine.
 
@@ -54,4 +55,4 @@ The application offers the following features:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE]([LICENSE](https://github.com/Rdeepthiacharya/cloud_tailor_/commit/7a17f51ea5916c0fd131a4fe9dbcfe0e83f32f27)https://github.com/Rdeepthiacharya/cloud_tailor_/commit/7a17f51ea5916c0fd131a4fe9dbcfe0e83f32f27) file for details.
