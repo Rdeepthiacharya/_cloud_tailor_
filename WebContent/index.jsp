@@ -10,7 +10,6 @@
 
 <!-- Favicon  -->
 <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-
 <!-- CSS -->
 <link rel="stylesheet" href="css/core-style.css">
 <link rel="stylesheet" href="css/stylefinal.css">
@@ -146,7 +145,7 @@
 			</div>
 			<!-- Single Catagory -->
 			<div class="single_catagory_area d-flex align-items-center bg-img"
-				style="background-image: url(img/top-banner15.jpg);">
+				style="background-image: url(img/top-banner14.jpg);">
 				<div class="catagory-content">
 					<h6></h6>
 					<h2>Customized Saree blouse</h2>
