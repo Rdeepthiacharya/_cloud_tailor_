@@ -1,4 +1,4 @@
-# Project Title
+# Project Description 
 
 The website allows users to browse and purchase women's clothing items, as well as customize products. Users can create an account, change password, add items to their cart, and securely checkout and also give order for customized products. 
 It also have a email feature so once the order is placed the customers will get mail regarding name of products its price and so no.
@@ -11,7 +11,7 @@ Overall, this web application provides a seamless shopping experience for women 
 
 To get started with this project, you will need to have the following installed on your system:
 - Java JDK
-- Eclipse 
+- Eclipse (or any other application of your choice)
 - Apache Tomcat
 - SQLyog
 - create an SMTP server for Gmail
@@ -48,10 +48,6 @@ The application offers the following features:
 - MySQL database
 - HTML, CSS, JavaScript, and jQuery for user interface
 - Apache Tomcat web server
-
-## Authors
-
-- [Deepthi G Acharya ](https://github.com/Rdeepthiacharya)
 
 ## License
 
